@@ -10,11 +10,15 @@
 
 header {
 
+  .container {
 
-  #list {
 
-    list-style: none;
+    .row {
 
+      display: flex;
+      flex-direction: row;
+
+    }
   }
 }
 

@@ -1,4 +1,5 @@
 import LogoImg from "../assets/img/dc-logo.png"
+import CicleList from "./CicleList";
 
 export default function AppHeader() {
 
@@ -15,17 +16,6 @@ export default function AppHeader() {
         'SHOP'
     ]
 
-    const ul = document.getElementById('list');
-
-    const element = options.forEach(function (option) {
-
-        const li = document.createElement('li');
-        li.innerText = option
-        ul.appendChild(li)
-
-    })
-
-
     return (
 
         <header>
@@ -35,7 +25,7 @@ export default function AppHeader() {
                         <img src={LogoImg} alt="" />
                     </div>
                     <div className="selector">
-                        <ul id="list" className="list-group list-group-horizontal"></ul>
+                        <CicleList array={options} />
                     </div>
                 </div>
             </div>
