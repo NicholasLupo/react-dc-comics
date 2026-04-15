@@ -70,6 +70,21 @@ main {
 
   }
 
+  #lower {
+
+    padding: 2rem 1rem;
+
+    ul {
+
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+    }
+
+  }
+
 }
 
 footer {
