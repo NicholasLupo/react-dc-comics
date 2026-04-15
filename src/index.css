@@ -49,7 +49,7 @@ main {
 
   #backOne {
 
-    background-color: black;
+    background-color: #1c1c1c;
 
   }
 
@@ -89,16 +89,18 @@ main {
 
 footer {
 
+  #backDraw {
 
-  #links {
-
+    height: 50vh;
     background-image: url('./assets/img/footer-bg.jpg');
 
   }
 
-  #socials {
+  #backFinal {
 
+    height: 11vh;
     background-color: #303030;
 
   }
+
 }

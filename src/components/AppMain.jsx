@@ -32,6 +32,9 @@ export default function AppMain() {
 
     ]
 
+    //Per vedere cosa restituisce la chiave img
+    console.log(catalog[0].img);
+
 
     return (
 

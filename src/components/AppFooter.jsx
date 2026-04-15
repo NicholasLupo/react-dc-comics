@@ -5,15 +5,21 @@ export default function AppFooter() {
     return (
 
         <footer>
-            <div className="container">
-                <div id='links' className="row">
-                    boh
+            <section id="backDraw">
+                <div className="container">
+                    <div id='links' className="row">
+
+                    </div>
                 </div>
-                <div id='socials' className="row">
-                    boh
+            </section>
+            <section id="backFinal">
+                <div className="container">
+                    <div id='socials' className="row">
+
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </section>
+        </footer >
 
     )
 
