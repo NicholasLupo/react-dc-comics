@@ -1,39 +1,31 @@
 import CicleObject from "./CicleObject";
-import DigitalComics from "../assets/img/buy-comics-digital-comics.png"
-import Merchandise from "../assets/img/buy-comics-merchandise.png"
-import ShopLocator from "../assets/img/buy-comics-shop-locator.png"
-import Subscriptions from "../assets/img/buy-comics-subscriptions.png"
-import PowerVisa from "../assets/img/buy-dc-power-visa.svg"
 
 export default function AppMain() {
 
     const catalog = [
 
         {
-            img: { DigitalComics },
+            img: '/img/buy-comics-digital-comics.png',
             type: 'DIGITAL COMICS'
         },
         {
-            img: { Merchandise },
+            img: '/img/buy-comics-merchandise.png',
             type: 'DC MERCHANDISE'
         },
         {
-            img: { Subscriptions },
+            img: '/img/buy-comics-subscriptions.png',
             type: 'SUBSCRIPTION'
         },
         {
-            img: { ShopLocator },
+            img: '/img/buy-comics-shop-locator.png',
             type: 'COMIC SHOP LOCATOR'
         },
         {
-            img: { PowerVisa },
+            img: '/img/buy-dc-power-visa.svg',
             type: 'DC POWER VISA'
         }
 
     ]
-
-    //Per vedere cosa restituisce la chiave img
-    console.log(catalog[0].img);
 
 
     return (

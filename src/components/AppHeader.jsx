@@ -1,4 +1,3 @@
-import LogoImg from "../assets/img/dc-logo.png"
 import CicleList from "./CicleList";
 
 export default function AppHeader() {
@@ -22,7 +21,7 @@ export default function AppHeader() {
             <div className="container">
                 <div className="row">
                     <div className="logo col-2">
-                        <img src={LogoImg} alt="" />
+                        <img src='/img/dc-logo.png' alt="" />
                     </div>
                     <div className="selector col-10">
                         <CicleList array={options} />

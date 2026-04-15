@@ -7,8 +7,11 @@ export default function AppFooter() {
         <footer>
             <section id="backDraw">
                 <div className="container">
-                    <div id='links' className="row">
-
+                    <div className="row">
+                        <div id="links"></div>
+                        <div id="logo">
+                            <img src='/img/dc-logo-bg.png' alt="" />
+                        </div>
                     </div>
                 </div>
             </section>

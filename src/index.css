@@ -92,7 +92,15 @@ footer {
   #backDraw {
 
     height: 50vh;
-    background-image: url('./assets/img/footer-bg.jpg');
+    background-image: url('/img/footer-bg.jpg');
+    background-repeat: round;
+
+  }
+
+  #logo {
+
+    text-align: right;
+
 
   }
 
