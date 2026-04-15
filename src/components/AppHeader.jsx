@@ -3,7 +3,13 @@ export default function AppHeader() {
 
     return (
 
-        <header>Header</header>
+        <header>
+            <div className="container">
+                <div className="row">
+                    header
+                </div>
+            </div>
+        </header>
 
     )
 }

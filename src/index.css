@@ -1,7 +1,42 @@
+@import url('bootstrap');
+
 * {
 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
+}
+
+main {
+
+
+  #upper {
+
+    background-color: black;
+
+  }
+
+  #lower {
+
+    background-color: #0282f9;
+
+  }
+
+}
+
+footer {
+
+
+  #links {
+
+    background-image: url('./assets/img/footer-bg.jpg');
+
+  }
+
+  #socials {
+
+    background-color: #303030;
+
+  }
 }
