@@ -21,10 +21,10 @@ export default function AppHeader() {
         <header>
             <div className="container">
                 <div className="row">
-                    <div className="logo">
+                    <div className="logo col-2">
                         <img src={LogoImg} alt="" />
                     </div>
-                    <div className="selector">
+                    <div className="selector col-10">
                         <CicleList array={options} />
                     </div>
                 </div>
