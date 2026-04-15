@@ -47,13 +47,24 @@ header {
 main {
 
 
-  #upper {
+  #backOne {
 
     background-color: black;
 
   }
 
-  #lower {
+  #upper {
+
+
+    p {
+
+      padding: 2rem 0;
+
+    }
+
+  }
+
+  #backTwo {
 
     background-color: #0282f9;
 
