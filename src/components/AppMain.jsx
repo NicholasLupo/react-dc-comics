@@ -41,7 +41,7 @@ export default function AppMain() {
                         <ul className='list-unstyled'>
                             {
                                 comics.map((item, index) => (
-                                    <li key={index}>
+                                    <li key={index} className="col-2">
                                         <img src={item.thumb} alt="" />
                                         <p className="text-white">{item.title}</p>
                                     </li>
