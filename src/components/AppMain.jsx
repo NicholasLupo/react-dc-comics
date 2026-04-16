@@ -48,6 +48,7 @@ export default function AppMain() {
                                 ))
                             }
                         </ul>
+                        <button className="text-white p-3 fw-bold btn btn-primary rounded-0"> LOAD MORE </button>
                     </div>
                 </div>
             </section>
