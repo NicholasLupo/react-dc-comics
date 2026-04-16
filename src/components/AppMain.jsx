@@ -31,6 +31,9 @@ export default function AppMain() {
     return (
 
         <main>
+            <section className="jumbotron">
+                <img src="/img/jumbotron.jpg" alt="" />
+            </section>
             <section id="backOne">
                 <div className="container">
                     <div id='upper' className="row">
