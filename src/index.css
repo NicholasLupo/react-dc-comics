@@ -67,6 +67,8 @@ main {
   #backTwo {
 
     background-color: #0282f9;
+    position: relative;
+    z-index: 1;
 
   }
 
@@ -99,13 +101,24 @@ footer {
 
   #logo {
 
-    text-align: right;
+    position: absolute;
 
+    img {
+
+      width: 40%;
+      position: relative;
+      z-index: 0;
+      left: 40%;
+      transform: translateY(-18%);
+
+    }
 
   }
 
   #backFinal {
 
+    position: relative;
+    z-index: 1;
     height: 11vh;
     background-color: #303030;
 
