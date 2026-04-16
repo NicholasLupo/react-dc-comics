@@ -87,7 +87,12 @@ export default function AppFooter() {
             <section id="backFinal">
                 <div className="container">
                     <div id='socials' className="row">
+                        <div className="btn">
+                            <button className="fw-bold text-white bg-transparent border border-2 border-primary p-3"> SIGN-UP NOW! </button>
+                        </div>
+                        <div className="social">
 
+                        </div>
                     </div>
                 </div>
             </section>
