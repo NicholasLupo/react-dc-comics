@@ -1,5 +1,51 @@
+import CicleList from "./CicleList"
+
 export default function AppFooter() {
 
+    const DCComics = [
+
+        'Characters',
+        'Comics',
+        'Movies',
+        'TV',
+        'Games',
+        'Videos',
+        'News'
+
+    ]
+
+    const DC = [
+
+        'Term Of Use',
+        'Privacy policy (New)',
+        'Ad Choices',
+        'Advertising',
+        'Jobs',
+        'Subscriptions',
+        'Talent Workshops',
+        'CPSC Certificates',
+        'Ratings',
+        'Shop Help',
+        'Contact Us'
+
+    ]
+
+    const Sites = [
+
+        'DC',
+        'MAD Magazine',
+        'DC Kids',
+        'DC Universe',
+        'DC Power Visa'
+
+    ]
+
+    const Shop = [
+
+        'Shop DC',
+        'Shop DC Collectibles'
+
+    ]
 
 
     return (
@@ -7,11 +53,34 @@ export default function AppFooter() {
         <footer>
             <section id="backDraw">
                 <div className="container">
-                    <div className="row">
-                        <div id="links"></div>
-                        <div id="logo">
-                            <img src='/img/dc-logo-bg.png' alt="" />
+                    <div id="links" className="col-6">
+                        <div id="block">
+                            <span className="fs-5">
+                                DC COMICS
+                            </span>
+                            <CicleList array={DCComics} />
                         </div>
+                        <div id="block">
+                            <span className="fs-5">
+                                DC
+                            </span>
+                            <CicleList array={DC} />
+                        </div>
+                        <div id="block">
+                            <span className="fs-5">
+                                SITES
+                            </span>
+                            <CicleList array={Sites} />
+                        </div>
+                        <div id="block">
+                            <span className="fs-5">
+                                SHOP
+                            </span>
+                            <CicleList array={Shop} />
+                        </div>
+                    </div>
+                    <div id="logo" className="col-6">
+                        <img src='/img/dc-logo-bg.png' alt="" />
                     </div>
                 </div>
             </section>
