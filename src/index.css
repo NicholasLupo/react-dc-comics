@@ -70,18 +70,24 @@ body {
 
       background-color: #1c1c1c;
 
-    }
+      #upper {
 
-    #upper {
+        ul {
 
+          display: flex;
 
-      p {
+        }
 
-        padding: 2rem 0;
+        img {
+
+          width: 120px;
+          height: 120px;
+
+        }
 
       }
-
     }
+
 
     #backTwo {
 

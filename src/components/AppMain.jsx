@@ -1,4 +1,5 @@
 import CicleObject from "./CicleObject";
+import comics from "../../comics"
 
 export default function AppMain() {
 
@@ -37,7 +38,16 @@ export default function AppMain() {
             <section id="backOne">
                 <div className="container">
                     <div id='upper' className="row">
-                        <p className="text-white fw-bold fs-3"> --&#62; Content goes here &#60;-- </p>
+                        <ul className='list-unstyled'>
+                            {
+                                comics.map((item, index) => (
+                                    <li key={index}>
+                                        <img src={item.thumb} alt="" />
+                                        <p className="text-white">{item.title}</p>
+                                    </li>
+                                ))
+                            }
+                        </ul>
                     </div>
                 </div>
             </section>
