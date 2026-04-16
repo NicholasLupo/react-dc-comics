@@ -1,4 +1,5 @@
 import CicleList from "./CicleList"
+import CicleObject from "./CicleObject"
 
 export default function AppFooter() {
 
@@ -47,6 +48,37 @@ export default function AppFooter() {
 
     ]
 
+    const social = [
+
+        {
+            img: '/img/footer-facebook.png',
+            type: ''
+        },
+        {
+            img: '/img/footer-twitter.png',
+            type: ''
+        },
+        {
+            img: '/img/footer-youtube.png',
+            type: ''
+        },
+        {
+            img: '/img/footer-pinterest.png',
+            type: ''
+        },
+        {
+            img: '/img/footer-periscope.png',
+            type: ''
+        }
+
+
+    ]
+
+
+
+
+
+
 
     return (
 
@@ -87,11 +119,12 @@ export default function AppFooter() {
             <section id="backFinal">
                 <div className="container">
                     <div id='socials' className="row">
-                        <div className="btn">
+                        <div className="btn col-5">
                             <button className="fw-bold text-white bg-transparent border border-2 border-primary p-3"> SIGN-UP NOW! </button>
                         </div>
-                        <div className="social">
-
+                        <div id="social" className="col-5">
+                            <span className="text-primary fw-bold fs-5"> FOLLOW US </span>
+                            <CicleObject object={social} />
                         </div>
                     </div>
                 </div>

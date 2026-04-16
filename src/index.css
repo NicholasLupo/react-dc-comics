@@ -170,4 +170,48 @@ footer {
   height: 20vh;
   background-color: #303030;
 
+  #socials {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    button {
+
+      float: left;
+
+    }
+
+    #social {
+
+      display: flex;
+      justify-content: right;
+      padding: 0;
+
+      span {
+
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+
+      }
+
+      ul {
+
+        display: flex;
+        margin-bottom: 0;
+
+        li {
+
+          padding: 1rem;
+
+        }
+
+      }
+
+    }
+
+  }
+
 }
