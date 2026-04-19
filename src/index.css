@@ -70,10 +70,21 @@ body {
 
       background-color: #1c1c1c;
 
+      span {
+
+        position: absolute;
+        left: 18%;
+        transform: translateY(-50%);
+        background-color: #0282f9;
+        padding: 12px 2rem 12px 2rem;
+
+      }
+
       #upper {
 
         padding: 3rem;
         justify-content: center;
+
 
         ul {
 
@@ -97,6 +108,7 @@ body {
 
         button {
 
+          background-color: #0282f9;
           width: 20%;
 
         }
@@ -149,7 +161,7 @@ body {
 
     #backDraw {
 
-      max-height: 45vh;
+      max-height: 40vh;
       background-image: url('/img/footer-bg.jpg');
       background-repeat: round;
 

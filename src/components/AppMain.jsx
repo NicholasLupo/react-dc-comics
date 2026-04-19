@@ -37,6 +37,7 @@ export default function AppMain() {
             </section>
             <section id="backOne">
                 <div className="container">
+                    <span className="text-white fw-bold fs-5"> CURRENT SERIES </span>
                     <div id='upper' className="row">
                         <ul className='list-unstyled'>
                             {
@@ -48,7 +49,7 @@ export default function AppMain() {
                                 ))
                             }
                         </ul>
-                        <button className="text-white p-3 fw-bold btn btn-primary rounded-0"> LOAD MORE </button>
+                        <button className="text-white p-3 fw-bold btn rounded-0"> LOAD MORE </button>
                     </div>
                 </div>
             </section>
