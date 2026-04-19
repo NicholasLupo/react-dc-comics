@@ -73,6 +73,7 @@ body {
       #upper {
 
         padding: 3rem;
+        justify-content: center;
 
         ul {
 
@@ -94,6 +95,12 @@ body {
 
         }
 
+        button {
+
+          width: 20%;
+
+        }
+
       }
     }
 
@@ -104,37 +111,36 @@ body {
       position: relative;
       z-index: 1;
 
-    }
+      #lower {
 
-    #lower {
+        padding: 2rem 1rem;
 
-      padding: 2rem 1rem;
+        ul {
 
-      ul {
+          color: white;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0;
 
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0;
+          li {
 
-        li {
-
-          text-align: center;
-          width: 20%;
-
-          img {
-
+            text-align: center;
             width: 20%;
-            margin-right: 1rem;
 
+            img {
+
+              width: 20%;
+              margin-right: 1rem;
+
+            }
           }
+
+
         }
 
-
       }
-
     }
 
   }
