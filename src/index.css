@@ -149,7 +149,7 @@ body {
 
     #backDraw {
 
-      height: 40vh;
+      max-height: 45vh;
       background-image: url('/img/footer-bg.jpg');
       background-repeat: round;
 
@@ -159,12 +159,14 @@ body {
 
         #links {
 
-          padding: 2rem 2rem 2rem 0;
+          padding: 1rem 2rem 1rem 0;
           color: white;
+          max-height: 40vh;
           display: flex;
 
           #block {
 
+            font-size: 15px;
             padding: 1rem;
 
             span {
@@ -175,7 +177,8 @@ body {
 
             ul {
 
-              margin-top: 2rem;
+              opacity: 40%;
+              margin-top: 1rem;
 
             }
           }
@@ -183,8 +186,6 @@ body {
 
 
         #logo {
-
-          width: 50%;
 
           img {
 
@@ -204,7 +205,7 @@ body {
 
       position: relative;
       z-index: 1;
-      height: 20vh;
+      max-height: 20vh;
       background-color: #303030;
 
       #socials {

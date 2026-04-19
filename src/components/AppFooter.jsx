@@ -86,6 +86,10 @@ export default function AppFooter() {
                                 DC COMICS
                             </span>
                             <CicleList array={DCComics} />
+                            <span className="fs-5">
+                                SHOP
+                            </span>
+                            <CicleList array={Shop} />
                         </div>
                         <div id="block">
                             <span className="fs-5">
@@ -98,12 +102,6 @@ export default function AppFooter() {
                                 SITES
                             </span>
                             <CicleList array={Sites} />
-                        </div>
-                        <div id="block">
-                            <span className="fs-5">
-                                SHOP
-                            </span>
-                            <CicleList array={Shop} />
                         </div>
                     </div>
                     <div id="logo" className="col-6">
