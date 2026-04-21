@@ -1,4 +1,3 @@
-import CicleList from "./CicleList";
 import CicleObject from "./CicleObject";
 
 export default function AppHeader() {

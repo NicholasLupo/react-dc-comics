@@ -1,50 +1,124 @@
-import CicleList from "./CicleList"
 import CicleObject from "./CicleObject"
 
 export default function AppFooter() {
 
     const DCComics = [
 
-        'Characters',
-        'Comics',
-        'Movies',
-        'TV',
-        'Games',
-        'Videos',
-        'News'
+        {
+            nome: 'Characters',
+            link: '/characters'
+        },
+        {
+            nome: 'Comics',
+            link: '/comics'
+        },
+        {
+            nome: 'Movies',
+            link: '/movies'
+        },
+        {
+            nome: 'TV',
+            link: '/tv'
+        },
+        {
+            nome: 'Games',
+            link: '/games'
+        },
+        {
+            nome: 'Videos',
+            link: '/videos'
+        },
+        {
+            nome: 'News',
+            link: '/news'
+        }
 
     ]
 
     const DC = [
 
-        'Term Of Use',
-        'Privacy policy (New)',
-        'Ad Choices',
-        'Advertising',
-        'Jobs',
-        'Subscriptions',
-        'Talent Workshops',
-        'CPSC Certificates',
-        'Ratings',
-        'Shop Help',
-        'Contact Us'
+        {
+            nome: 'Term Of Use',
+            link: '/term-of-use'
+        },
+        {
+            nome: 'Privacy policy (New)',
+            link: '/privacy'
+        },
+        {
+            nome: 'Ad Choices',
+            link: '/choices'
+        },
+        {
+            nome: 'Advertising',
+            link: '/advertising'
+        },
+        {
+            nome: 'Jobs',
+            link: '/jobs'
+        },
+        {
+            nome: 'Subscriptions',
+            link: '/subscriptions'
+        },
+        {
+            nome: 'Talent Workshops',
+            link: '/workshops'
+        },
+        {
+            nome: 'CPSC Certificates',
+            link: '/cpsc'
+        },
+        {
+            nome: 'Ratings',
+            link: '/ratings'
+        },
+        {
+            nome: 'Shop Help',
+            link: '/shop-help'
+        },
+        {
+            nome: 'Contact Us',
+            link: '/contact'
+        }
 
     ]
 
     const Sites = [
 
-        'DC',
-        'MAD Magazine',
-        'DC Kids',
-        'DC Universe',
-        'DC Power Visa'
+        {
+            nome: 'DC',
+            link: '/dc'
+        },
+        {
+            nome: 'MAD Magazine',
+            link: '/magazine'
+        },
+        {
+            nome: 'DC Kids',
+            link: '/kids'
+        },
+        {
+            nome: 'DC Universe',
+            link: '/universe'
+        },
+        {
+            nome: 'DC Power Visa',
+            link: '/power-visa'
+        }
 
     ]
 
     const Shop = [
 
-        'Shop DC',
-        'Shop DC Collectibles'
+        {
+            nome: 'Shop DC',
+            link: '/shop'
+        },
+        {
+            nome: 'Shop DC Collectibles',
+            link: '/shop-dc'
+        }
 
     ]
 
@@ -90,23 +164,23 @@ export default function AppFooter() {
                             <span className="fs-5">
                                 DC COMICS
                             </span>
-                            <CicleList array={DCComics} />
+                            <CicleObject object={DCComics} />
                             <span className="fs-5">
                                 SHOP
                             </span>
-                            <CicleList array={Shop} />
+                            <CicleObject object={Shop} />
                         </div>
                         <div id="block">
                             <span className="fs-5">
                                 DC
                             </span>
-                            <CicleList array={DC} />
+                            <CicleObject object={DC} />
                         </div>
                         <div id="block">
                             <span className="fs-5">
                                 SITES
                             </span>
-                            <CicleList array={Sites} />
+                            <CicleObject object={Sites} />
                         </div>
                     </div>
                     <div id="logo" className="col-6">
