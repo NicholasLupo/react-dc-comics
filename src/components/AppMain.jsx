@@ -7,23 +7,28 @@ export default function AppMain() {
 
         {
             img: '/img/buy-comics-digital-comics.png',
-            type: 'DIGITAL COMICS'
+            nome: 'DIGITAL COMICS',
+            link: '/digital-comics'
         },
         {
             img: '/img/buy-comics-merchandise.png',
-            type: 'DC MERCHANDISE'
+            nome: 'DC MERCHANDISE',
+            link: '/dc-merchandise'
         },
         {
             img: '/img/buy-comics-subscriptions.png',
-            type: 'SUBSCRIPTION'
+            nome: 'SUBSCRIPTION',
+            link: '/subscription'
         },
         {
             img: '/img/buy-comics-shop-locator.png',
-            type: 'COMIC SHOP LOCATOR'
+            nome: 'COMIC SHOP LOCATOR',
+            link: '/comic-shop'
         },
         {
             img: '/img/buy-dc-power-visa.svg',
-            type: 'DC POWER VISA'
+            nome: 'DC POWER VISA',
+            link: '/power-visa'
         }
 
     ]

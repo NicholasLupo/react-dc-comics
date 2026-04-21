@@ -7,7 +7,7 @@ export default function CicleObject({ object, className = "list-unstyled" }) {
                 object.map((item, index) => (
                     <li key={index}>
                         <img src={item.img} alt="" />
-                        <span>{item.type}</span>
+                        <a className="nav-link" href={item.link}>{item.nome}</a>
                     </li>
                 ))
             }

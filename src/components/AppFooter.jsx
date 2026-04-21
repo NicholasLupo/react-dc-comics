@@ -52,23 +52,28 @@ export default function AppFooter() {
 
         {
             img: '/img/footer-facebook.png',
-            type: ''
+            nome: '',
+            link: '/facebook'
         },
         {
             img: '/img/footer-twitter.png',
-            type: ''
+            nome: '',
+            link: '/twitter'
         },
         {
             img: '/img/footer-youtube.png',
-            type: ''
+            nome: '',
+            link: '/youtube'
         },
         {
             img: '/img/footer-pinterest.png',
-            type: ''
+            nome: '',
+            link: '/pinterest'
         },
         {
             img: '/img/footer-periscope.png',
-            type: ''
+            nome: '',
+            link: '/periscope'
         }
 
 
