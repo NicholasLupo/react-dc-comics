@@ -1,51 +1,8 @@
 import CicleObject from "./CicleObject";
 
-export default function AppHeader() {
+export default function AppHeader({ options }) {
 
-    const options = [
 
-        {
-            nome: 'CHARACTERS',
-            link: '/characters'
-        },
-        {
-            nome: 'COMICS',
-            link: '/comics'
-        },
-        {
-            nome: 'MOVIES',
-            link: '/movies'
-        },
-        {
-            nome: 'TV',
-            link: '/tv'
-        },
-        {
-            nome: 'GAMES',
-            link: '/games'
-        },
-        {
-            nome: 'COLLECTIBLES',
-            link: '/collectibles'
-        },
-        {
-            nome: 'VIDEOS',
-            link: '/videos'
-        },
-        {
-            nome: 'FANS',
-            link: '/fans'
-        },
-        {
-            nome: 'NEWS',
-            link: '/news'
-        },
-        {
-            nome: 'SHOP',
-            link: '/shop'
-        },
-
-    ]
 
     return (
 

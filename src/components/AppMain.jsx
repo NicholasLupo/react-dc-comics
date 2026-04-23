@@ -1,38 +1,7 @@
 import CicleObject from "./CicleObject";
 import comics from "../../comics"
 
-export default function AppMain() {
-
-    const catalog = [
-
-        {
-            img: '/img/buy-comics-digital-comics.png',
-            nome: 'DIGITAL COMICS',
-            link: '/digital-comics'
-        },
-        {
-            img: '/img/buy-comics-merchandise.png',
-            nome: 'DC MERCHANDISE',
-            link: '/dc-merchandise'
-        },
-        {
-            img: '/img/buy-comics-subscriptions.png',
-            nome: 'SUBSCRIPTION',
-            link: '/subscription'
-        },
-        {
-            img: '/img/buy-comics-shop-locator.png',
-            nome: 'COMIC SHOP LOCATOR',
-            link: '/comic-shop'
-        },
-        {
-            img: '/img/buy-dc-power-visa.svg',
-            nome: 'DC POWER VISA',
-            link: '/power-visa'
-        }
-
-    ]
-
+export default function AppMain({ catalog }) {
 
     return (
 
